@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/mithun/Documents/Learning-Lab/Jane Street/iitpokerbots/working_env/iitpokerbots/bot_copy_2.py", line 227, in <module>
+    run_bot(Player(), parse_args())
+  File "/Users/mithun/Documents/Learning-Lab/Jane Street/iitpokerbots/working_env/iitpokerbots/pkbot/runner.py", line 134, in run_bot
+    assert isinstance(pokerbot, BaseBot)
+AssertionError
+Traceback (most recent call last):
+  File "/Users/mithun/Documents/Learning-Lab/Jane Street/iitpokerbots/working_env/iitpokerbots/engine.py", line 241, in run
+    client_socket, _ = server_socket.accept()
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 293, in accept
+    fd, addr = self._accept()
+               ^^^^^^^^^^^^^^
+TimeoutError: timed out
