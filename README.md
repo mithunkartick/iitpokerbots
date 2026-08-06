@@ -54,3 +54,24 @@ The tournament features a unique variant of **Heads-Up No-Limit Texas Hold'em** 
 │       ├── logging.py            # Error tracking and game log parsers
 │       └── settings.py           # Global strict checking flags
 └── models/                       # Checkpoints (.pt weights)
+
+---
+
+## Final Results & Reflections
+
+Ultimately, we were unable to complete the training for the Deep CFR agent in time for the tournament deadline. As a result, our final submission relied on our Phase 1 `eval7` Monte-Carlo strategy, which secured us a rank within the top 250. 
+
+While we strongly believe the Deep CFR approach would have performed tremendously better had the training completed, the engineering journey itself was incredibly rewarding. Building out the state adapters, understanding the limits of heuristic poker, and designing a game-theory optimal architecture was a massive learning experience.
+
+---
+
+## Acknowledgments & Methodology
+
+We extend our sincere gratitude to the **PARAMGANGA facility provided by the Institute Computer Centre, IITR**, for generously providing us with the computational resources required to attempt training the Deep CFR model. 
+
+This project was built using an iterative engineering process. Minimal to moderate assistance from Large Language Models (LLMs) was utilized throughout development to:
+* Accelerate boilerplate integration between external libraries (`eval7`, `pkbot`, PyTorch).
+* Debug edge-case tensor shape mismatches and state serialization bugs.
+* Benchmark theoretical game-tree architectures against engine mechanics.
+
+All core strategic design decisions, state-vector feature engineering, mathematical trade-off analyses, and system debugging were guided and validated through rigorous local benchmarking by our team.
