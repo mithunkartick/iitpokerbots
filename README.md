@@ -54,7 +54,7 @@ The tournament features a unique variant of **Heads-Up No-Limit Texas Hold'em** 
 │       ├── logging.py            # Error tracking and game log parsers
 │       └── settings.py           # Global strict checking flags
 └── models/                       # Checkpoints (.pt weights)
-
+```
 ---
 
 ## Final Results & Reflections
